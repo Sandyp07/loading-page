@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- title ----------->
+    <title>Bookshub</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+
+
+</head>
+<body>
+
+<!--header section starts-->
+
+<header class="header">
+
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> BooksHub </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+
+    <div class="header-2">
+        <div class="navbar">
+            <a href="categories.html">Categories</a>
+            <a href="bestsellers.html" >Bestsellers</a>
+            <a href="newarrival.html" > New Arrivals</a>
+            <a href="review.html" >Review</a>
+            <a href="#contact" >Contact</a>
+
+        </div>
+    </div>
+    <div class="menubar">
+        <i class='bx bx-menu'  id="menu-icon"></i>
+    </div>
+
+    <div class="main-header">
+        <div class="header">
+            <h5>BooksHub Bookstore</h5>
+            <h4>For all your reading needs</h4>
+            <a href="" class="btn">Get started</a>
+        </div>
+
+        <img src="./images/home.png">
+    </div>
+
+</header>
+<!--header section ends-->
+
+<!-------- login form start ----------->
+
+   
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="connect.php" method="post">
+            <h3>sign in</h3>
+            <span>email</span>
+            <input type="email" name="email" class="box"  placeholder="enter your email">
+            <span>password</span>
+            <input type="password" name="password" class="box"  placeholder="enter your password">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <form action="connect.php" method="post" id="registration-form">
+                <button name="submit" type="submit">Sign In</button>
+              
+                <p>forgot password ? <a href="">click here</a></p>
+                <p>don't have an account ? <a href="">create one</a></p>
+            </form> 
+        </form>
+    </div>
+
+     <!-------- login form ends ----------->
+
+       <!-------- footer section start  ----------->
+
+       <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our locations</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Pune</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Mumbai</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Ahmednagar</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Delhi</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Banglore</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Hyderabad</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Categories</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Bestsellers</a>
+                <a href=""><i class="fas fa-arrow-right"></i>New arrivals</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Review</a>
+              
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+                <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+                <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+                <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>+91-8591928862</a>
+                <a href=""><i class="fas fa-phone"></i>+91-9161262394</a>
+                <a href=""><i class="fas fa-envelope"></i>sandippawar1514@gmail.com</a>
+                <a href=""><i class="fas fa-envelope"></i>rishusingh1514@gmail.com</a>
+                <img src="images/worldmap.png" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-square-pinterest"></i></a>
+        </div>
+        
+        <div class="credit">created by <span>sandy and rishu</span> | all rights reserved</div>
+
+    </section>
+
+
+  </section>
+ <!-------- footer section ends  ----------->
+
+<!--Custom js file link-->
+ <script src="js/script.js"></script>
+    
+</body>
+</html>
